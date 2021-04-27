@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <nav>
+    <a href="https://www.ecoball.org">Home</a>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav>
+  <script>
+    window.$docsify = {
+      name: 'EcoBall',
+      repo: '',
+      logo: '../images/Ecoball_logo.png',//似乎设置了name才起作用
+      externalLinkTarget: '_self', // default: '_blank'
+      loadNavbar:true,
+      loadSidebar:true,
+      autoHeader:true,      
+      subMaxLevel:6,
+      topMargin:90
+
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
