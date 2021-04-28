@@ -4,6 +4,8 @@ The EcoBall blockchain system adopts the GPoW+ hybrid consensus mechanism, and i
 
 ![Technical architecture](../images/tech-arc-en.png)
 
+<img src='../images/tech-arc-en.png'></img>
+
 ## GPoW consensus mechanism
 
 EcoBall uses the GPoW consensus mechanism derived from the ProgPOW consensus algorithm. Miners know that Ethereum uses the ETHash algorithm, but due to the relatively low execution efficiency and utilization of the ETHash algorithm on the GPU, ProgPOW has been modified based on ETHash to maximize the utilization of the GPU and is aimed at the blockchain community For mining needs, the mainstream GPU (such as AMD’s Polaris and Vega series GPU and NVIDIA’s Pascal series GPU) have been specially optimized.
