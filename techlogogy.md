@@ -4,7 +4,6 @@ The EcoBall blockchain system adopts the GPoW+ hybrid consensus mechanism, and i
 
 ![Technical architecture](images/tech-arc-en.png)
 
-<img src='images/tech-arc-en.png'></img>
 
 ## GPoW consensus mechanism
 
